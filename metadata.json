@@ -1,0 +1,5 @@
+{
+  "name": "Market Radar",
+  "description": "Real-time stock market news aggregator with Gemini search grounding.",
+  "requestFramePermissions": []
+}

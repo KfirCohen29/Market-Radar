@@ -7,7 +7,7 @@ import { FilterState, NewsItem, ThemeColor, StockData, SavedFilter } from './typ
 import { Activity, AlertCircle, Globe, Moon, Sun, Palette, Download, Plus, Bookmark, X, RefreshCw, TrendingUp, TrendingDown, ExternalLink, ChevronDown } from 'lucide-react';
 
 // Initialize Gemini API inside functions to ensure latest API key is used
-// const ai = new GoogleGenAI({ apiKey: process.env.VITE_GEMINI_API_KEY  || '' });
+const ai = new GoogleGenAI({ apiKey: process.env.VITE_GEMINI_API_KEY  || '' });
 
 const themeClasses = {
   blue: { 
